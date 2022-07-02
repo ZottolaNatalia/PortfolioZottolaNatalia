@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.Estudioimg{
+    background-image: url(../img/Estudio.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 510px;
+}
+
+.Habilidadimg{
+    background-image: url(../img/Habilidades.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 510px;
+}
+
+.Proyectosimg{
+    background-image: url(../img/Proyectos.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 510px;
+}
+
+body{
+    font-family:'Signika', sans-serif;
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: antiquewhite;
+}
+
+.foto{
+    display: inline-block;
+    padding-top: 30px;
+    padding-left: 528px;
+}
+
+nav ul{
+    list-style: center;
+    text-align: center;
+    padding: 15px 0 15px 0;
+    background-color: rgb(247, 58, 130);
+}
+
+nav ul li{
+    display: inline-block;
+    width: 130px;
+    background-color: rgb(13, 9, 241);
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-right: 10px;
+    text-align: center;
+    border-radius: 0 10px 0 10px;
+}
+
+nav ul li:hover{
+    background-color: rgb(60, 72, 236);
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.d-inline-block{
+    display: inline-block;
+    text-align: center;
+}
+
+.w-100{
+    width: 100%;
+}
+
+.width-75{
+    width: 74%;
+}
+
+.width-50{
+    width: 49%
+}
+
+.width-25{
+    width:24%
+}
+
+.vertical-align-middle{
+    vertical-align: middle;
+}
+
+footer{
+    display: inline-block;
+    padding-left: 450px;
+}
+
+.espaciado{
+    padding-top: 30px;
+}
+
+.centrar{
+    text-align: center;
+}
